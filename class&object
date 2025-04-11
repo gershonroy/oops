@@ -1,0 +1,18 @@
+
+class dog:
+    dog_legs=4
+    barks_rate=3
+    species ="canisfamiliaries"
+    def barks(self):
+       print("the dog barks loudly")
+    def description(self):
+       print("it is very famous")
+dog1=dog()
+print(dog1.species)
+print(dog1.dog_legs)
+dog1.barks()
+dog1.description()
+
+dog2=dog()
+print(dog2.barks())
+print(dog2.barks_rate)
